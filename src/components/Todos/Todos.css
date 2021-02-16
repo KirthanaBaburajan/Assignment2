@@ -1,0 +1,17 @@
+.Todos-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.App-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.App-section-container > div {
+  align-self: center;
+  padding: 50px;
+}
